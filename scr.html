@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Vowels</H1>
+    <script>
+        var str="Rajagiri";
+        var count=0;
+        var i;
+        var con=0;
+        myfun(str);
+        function myfun(str){
+            for(i=0;i<=7;i++){
+                if(str[i]=='a'||str[i]=='A'||str[i]=='e'||str[i]=='E'||str[i]=='i'||str[i]=='I'||str[i]=='o'||str[i]=='O'||str[i]=='u'||str[i]=='U'){
+                    count=count+1;
+                }
+                
+            }
+            document.write("Vowels :",count);
+            
+        }
+        
+    </script>
+</body>
+</html>
